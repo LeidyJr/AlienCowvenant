@@ -10,21 +10,7 @@ import java.util.StringTokenizer;
 
 import javax.swing.JOptionPane;
 
-/**
- * GestorArchivos.java
- * Universidad Del Valle
- * ASIGNATURA: Programacion Interactiva
- * DOCENTE: Ivan Cabezas
- *
- * @author Juan David Tello - Sergio Ballen - Leidy Rivera - Kevin Franco
- * @version 1.0
- * @since 2017-05-25
- */
 
-/**
- * Esta clase se encarga de todo el manejo de archivos y
- * para así alamacenar la informacion gestionada en la Estructura de Datos
- */
 public class GestorArchivos{
 	//Variables que recogeran los datos de los archivos se enviaran a la clase Datos
 		EstructuraDatos data = new EstructuraDatos();

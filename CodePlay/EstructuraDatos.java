@@ -1,21 +1,6 @@
 package CodePlay;
 import java.lang.NumberFormatException;
 
-/**
- * EstructuraDatos.java
- * Universidad Del Valle
- * ASIGNATURA: Programacion Interactiva
- * DOCENTE: Ivan Cabezas
- *
- * @author Juan David Tello - Sergio Ballen - Leidy Rivera - Kevin Franco
- * @version 1.0
- * @since 2017-05-25
- */
-
-/**
- * Esta clase se encarga de almacenar toda la informacion correspondiente
- * a los todos los datos necesarios.
- */
 public class EstructuraDatos{
 private static int miMatriz[][];
 

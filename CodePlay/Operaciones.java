@@ -11,16 +11,6 @@ import javax.swing.ImageIcon;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 
-/**
- * Operaciones.java
- * Universidad Del Valle
- * ASIGNATURA: Progrmacion Interactiva
- * DOCENTE: Ivan Cabezas
- *
- * @author Juan David Tello - Sergio Ballen - Leidy Rivera - Kevin Franco
- * @version 1.0
- * @since 2017-05-25
- */
 
 /**
  * Esta clase se encarga de conetener todos los metodos
