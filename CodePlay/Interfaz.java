@@ -81,7 +81,7 @@ public class Interfaz extends javax.swing.JFrame implements ActionListener {
 		
 		
 		this.Guia.addActionListener(this);
-		Menu_Principal = new JMenuItem("Volver a Menu");
+		Menu_Principal = new JMenuItem("Volver al menú");
 		programa.add(Menu_Principal);
 		this.Menu_Principal.addActionListener(this);
 	    Salir = new JMenuItem("Guardar y Salir");
@@ -298,7 +298,7 @@ public class Interfaz extends javax.swing.JFrame implements ActionListener {
 	 * Este metodo valida si desea cerrar la ventana del menu pricipal
 	 */
 	private void cofirmarSalida() {
-		int valor =JOptionPane.showConfirmDialog(this,"�Estas seguro de cerrar la aplicacion?","Advertencia",JOptionPane.YES_NO_OPTION);
+		int valor =JOptionPane.showConfirmDialog(this,"¿Estas seguro de cerrar la aplicacion?","Advertencia",JOptionPane.YES_NO_OPTION);
 		if(valor==JOptionPane.YES_OPTION){
 			System.exit(0);
 		}
