@@ -23,7 +23,7 @@ public class Instrucciones extends JFrame{
 	/** Carga del layout*/
 	public Instrucciones(){
 		iniciarcomponent();
-		this.setTitle("INSTRUCCIONES");
+		this.setTitle("Alien Cowvenant - Instrucciones");
 		setLayout(null);
 		add(Imagen);
 		setBounds(150,50,1100,600);
