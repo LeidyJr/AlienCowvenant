@@ -6,6 +6,7 @@ Academic project developed in Java.
 Developers: 
  - Julian Fernando Anacona Beltrán
  - Leidy Johana Rivera Pazmiño
+ - Carlos Andrés Cadena Padilla
 
 Instructions:
 
