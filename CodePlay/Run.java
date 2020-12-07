@@ -25,7 +25,6 @@ public class Run extends Thread {
 	
 	JLabel[][] Grafico;
 	EstructuraDatos datos = new EstructuraDatos();
-	//JPanel panel;
 	AudioClip sonido1;
 	int rest;
 	int Orientacion,recorrido,no_ejecutar;
@@ -1627,7 +1626,7 @@ public class Run extends Thread {
 						}
 				break;
 				default:
-				//System.out.println("Entro a default");
+				//System.out.println("Entro a caso base");
 				break;
 			}
 		}
