@@ -39,7 +39,6 @@ public class Operaciones{
 					|| (objDatos.getmatriz()[i][j] == 4 ) || (objDatos.getmatriz()[i][j] == 51) || (objDatos.getmatriz()[i][j] == 52)
 				  || (objDatos.getmatriz()[i][j] == 53) || (objDatos.getmatriz()[i][j] == 54) || (objDatos.getmatriz()[i][j] == 55)
 					|| (objDatos.getmatriz()[i][j] == 56) || (objDatos.getmatriz()[i][j] == 57) || (objDatos.getmatriz()[i][j] == 58)){
-					// no hace nada
 				}else{
 					inconsistencias++;
 				}
@@ -180,20 +179,6 @@ public class Operaciones{
     bw.close();
   }
 
-	/**
-	* Este metodo me verifica que el movimiento sea permitido (dentro de los limites de la matriz)
-	* Temporalmente en deshuso
-	*/
-
-	//public boolean validateMatrixLegalMove(int x, int y, int direction){
-		//if (
-			//	((direction == 51 || direction == 52 || direction == 58) && (y == 9)) ||
-			//	((direction == 54 || direction == 53 || direction == 52) && (x == 0)) ||
-			//	((direction == 54 || direction == 55 || direction == 56) && (y == 0)) ||
-			//	((direction == 56 || direction == 57 || direction == 58) && (x == 9))
-			//	){return false;}
-		//return true;
-	//}
 
 	/**
 	* Este metodo setea la imagen correspondiente a cada convencion de la matriz numerica para la matriz grafica
