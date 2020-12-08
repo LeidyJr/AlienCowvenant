@@ -11,6 +11,8 @@ import javax.swing.JMenu;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 
+import java.lang.NullPointerException;
+
 /**
  * Este clase se encarga de realizar el proceso de ir pintando el recorrido
  * del personaje del juego sobre el escenario del nivel 
@@ -21,6 +23,7 @@ public class Run extends Thread {
 	Icon iconoCrashAntena = new ImageIcon(getClass().getResource("/Imagenes/antenaCrash.gif"));
 	Icon iconoCrashArbol = new ImageIcon(getClass().getResource("/Imagenes/arbolCrash.gif"));
 	Icon iconFueraPlaneta = new ImageIcon(getClass().getResource("/Imagenes/fuera_del_planeta.gif"));
+	Icon iconFueraCrashArbol = new ImageIcon(getClass().getResource("/Imagenes/fuera_del_arbol.gif"));
 	private Operaciones objOp = new Operaciones();
 	
 	JLabel[][] Grafico;
@@ -32,6 +35,7 @@ public class Run extends Thread {
 	int posx=datos.getPosiX();
 	int posy=datos.getPosiY();
 	boolean choque=true;
+	boolean logro=true;
 	//boolean meta=true;
 	//boolean VacaAbducida=true;
 	JMenu nivel;
