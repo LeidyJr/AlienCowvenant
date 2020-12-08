@@ -7,6 +7,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.Scanner;
 import java.util.StringTokenizer;
+import java.lang.NullPointerException;
 
 import javax.swing.JOptionPane;
 
@@ -15,6 +16,7 @@ public class GestorArchivos{
 	//Variables que recogeran los datos de los archivos se enviaran a la clase Datos
 		EstructuraDatos data = new EstructuraDatos();
 		BufferedReader br = null;
+		BufferedReader br2 = null;
 		private static String[] datos;
 
 		public GestorArchivos(){
