@@ -8,6 +8,7 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
+import java.lang.NullPointerException;
 
 
 public class Instrucciones extends JFrame{
@@ -17,6 +18,7 @@ public class Instrucciones extends JFrame{
 	/** Constructor*/
 	public void iniciarcomponent(){
 		Imagen = new JLabel(new ImageIcon(this.getClass().getResource("/Imagenes/instrucciones.png")));
+		Image2 = new JLabel(new ImageIcon(this.getClass().getResource("/Imagenes/instrucciones.png")));
 		Imagen.setBounds(0, 0, 1100, 600);
 	}
 
