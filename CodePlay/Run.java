@@ -12,7 +12,7 @@ import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 
 /**
- * Este Clases se encargar de realizar el proceso de ir pintando el recorrido
+ * Este clase se encarga de realizar el proceso de ir pintando el recorrido
  * del personaje del juego sobre el escenario del nivel 
  */
 public class Run extends Thread {
@@ -595,7 +595,7 @@ public class Run extends Thread {
 			}else{
 				if(rest==JOptionPane.CANCEL_OPTION){
 					int choice = JOptionPane.showOptionDialog(null, 
-						      "Deseas Guardar el nivel?", "Quit?",  JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE, null, null, null);
+						      "¿Deseas guardar el nivel?", "Quit?",  JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE, null, null, null);
 					if(choice==JOptionPane.YES_OPTION){
 						try {
 							objOp.saveProgress();
@@ -624,7 +624,7 @@ public class Run extends Thread {
 			rest=JOptionPane.showOptionDialog (null,  "Rodea los arboles para no chocarte", "Alerta", JOptionPane.YES_NO_CANCEL_OPTION, JOptionPane.WARNING_MESSAGE, iconoCrashArbol, botones, botones[0]);
 		}else{
 			if(Interfaz.MatrizLogica[posy][posx]==3){
-				rest=JOptionPane.showOptionDialog (null,  "No puedes atravesar los campos electricos de las torres", "Alerta", JOptionPane.YES_NO_CANCEL_OPTION, JOptionPane.WARNING_MESSAGE, iconoCrashAntena, botones, botones[0]);
+				rest=JOptionPane.showOptionDialog (null,  "No puedes atravesar los campos eléctricos de las torres", "Alerta", JOptionPane.YES_NO_CANCEL_OPTION, JOptionPane.WARNING_MESSAGE, iconoCrashAntena, botones, botones[0]);
 			}else{
 				rest=JOptionPane.showOptionDialog (null,  "Parece que tienes errores en tus instrucciones", "Alerta", JOptionPane.YES_NO_CANCEL_OPTION, JOptionPane.WARNING_MESSAGE, iconoSeFue, botones, botones[0]);
 			}
@@ -640,7 +640,7 @@ public class Run extends Thread {
 			{
 				if(rest==JOptionPane.CANCEL_OPTION){
 					int choice = JOptionPane.showOptionDialog(null, 
-						      "Deseas Guardar el nivel?", "Quit?",  JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE, null, null, null);
+						      "¿Deseas guardar el nivel?", "Quit?",  JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE, null, null, null);
 					if(choice==JOptionPane.YES_OPTION){
 						try {
 							objOp.saveProgress();
@@ -700,7 +700,7 @@ public class Run extends Thread {
 			Interfaz.MatrizLogica=datos.getmatriz();
 			actulizar();
 		}else{
-			JOptionPane.showMessageDialog(null,"No se puede cargar el mundo, su archivo esta corrupo","Error" ,JOptionPane.ERROR_MESSAGE, null);
+			JOptionPane.showMessageDialog(null,"No se puede cargar el mundo, su archivo esta corrupto","Error" ,JOptionPane.ERROR_MESSAGE, null);
 			System.exit(0);
 		}
 	}
