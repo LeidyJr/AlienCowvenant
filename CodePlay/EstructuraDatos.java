@@ -1,5 +1,6 @@
 package CodePlay;
 import java.lang.NumberFormatException;
+import java.lang.NullPointerException;
 
 public class EstructuraDatos{
 private static int miMatriz[][];
