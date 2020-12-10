@@ -79,6 +79,7 @@ public class Operaciones{
 			}
 		}
 		System.out.println(objDatos.getPosiYv()+" "+objDatos.getPosiXv());
+		System.out.println(objDatos.getPosiYv()+" "+objDatos.getPosiXv());
 	}
 
 	/**
