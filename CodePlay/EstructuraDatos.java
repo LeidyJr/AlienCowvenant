@@ -42,63 +42,53 @@ private static int miMatriz[][];
 	/**Coordenadas vacas*/
 	private static int PosiXv;
 	private static int PosiYv;
-
+	
 	/**
 	 * Getters y Setters
 	 */
+	
 	public int getVacas(){
 		return cantidadVacas;
 	}
-
 	protected void setVacas(int cantidadVacas){
 		this.cantidadVacas = cantidadVacas;
 	}
-
 	public int getPosiX(){
 		return PosiX;
 	}
-
 	protected void setPosiX(int paramPosiX){
 		this.PosiX = paramPosiX;
 	}
-
 	public int getPosiY(){
 		return PosiY;
 	}
-
 	protected void setPosiY(int paramPosiY){
 		this.PosiY = paramPosiY;
 	}
-
 	public int getMundoActivo(){
 		return mundoActivo;
 	}
-
 	protected void setMundoActivo(int paramMundoActivo){
 		this.mundoActivo = paramMundoActivo;
 	}
-
 	public int getCantidadMundos(){
 		return cantidadMundos;
 	}
-
 	protected void setCantidadMundos(int paramCantidadMundos){
 		this.cantidadMundos = paramCantidadMundos;
 	}
-
 	public int getPosiXv(){
 		return PosiXv;
 	}
-
 	protected void setPosiXv(int paramPosiXv){
 		this.PosiXv = paramPosiXv;
 	}
-
 	public int getPosiYv(){
 		return PosiYv;
 	}
-
 	protected void setPosiYv(int paramPosiYv){
 		this.PosiYv = paramPosiYv;
 	}
+
+	
 }
