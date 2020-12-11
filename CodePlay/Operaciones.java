@@ -179,8 +179,6 @@ public class Operaciones{
     }
     bw.close();
   }
-
-
 	/**
 	* Este metodo setea la imagen correspondiente a cada convencion de la matriz numerica para la matriz grafica
 	*/
@@ -226,5 +224,7 @@ public class Operaciones{
 				return new ImageIcon(getClass().getResource("/Imagenes/pasto.gif"));
 		}
 	}
+
+	
 
 }
