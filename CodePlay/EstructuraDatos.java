@@ -18,9 +18,9 @@ private static int miMatriz[][];
 			for(int j=0;j<10;j++){
 				try{
 					miMatriz[i][j]=Integer.parseInt(arreglo[i][j]);
-				}catch(NumberFormatException e){
-					/** Si la excepcion se efectua, se setea un valor especifico que va a arrojar error para la vista*/
-					miMatriz[i][j]=99;
+				}catch(NumberFormatException e){					
+					miMatriz[i][j]=69; /** Si la excepcion se efectua, se setea un valor especifico que va a arrojar error para la vista*/
+					
 				}
 			}
 		}
