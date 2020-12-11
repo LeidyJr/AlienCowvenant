@@ -44,7 +44,7 @@ private static int miMatriz[][];
 	private static int PosiYv;
 	
 	/**
-	 * Getters y Setters
+	 * Gets y Sets
 	 */
 	
 	public int getVacas(){
