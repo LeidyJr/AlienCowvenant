@@ -87,7 +87,7 @@ public class GestorArchivos{
 						//
 					}
         } else {
-           JOptionPane.showMessageDialog(null,"No existe archivo");
+           JOptionPane.showMessageDialog(null,"No existe archivo para cargar el nivel");
            System.exit(0);
         }
 		}
