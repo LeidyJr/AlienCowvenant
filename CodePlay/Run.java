@@ -74,8 +74,6 @@ public class Run extends Thread {
 				switch (comandoValue[0].toUpperCase()) {
 					case "STEP":
 						try {
-							//System.out.println("Estoy en el Step");
-							recorrido=Integer.parseInt(comandoValue[1]);
 							for (int z = 0;z < Integer.parseInt(comandoValue[1]); z++) {
 								runAlien();
 								
