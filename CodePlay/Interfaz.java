@@ -263,12 +263,8 @@ public class Interfaz extends javax.swing.JFrame implements ActionListener {
 		ArrayList <String> arrList = new ArrayList<>(Arrays.asList(s)) ;
 		
 		objOp.obtenerPosicionNave(MatrizLogica);
-		//posnave=MatrizLogica[Datos.getPosiY()][Datos.getPosiX()];
-		//PosX=Datos.getPosiX();
-		//PosY=Datos.getPosiY();
 		Run Mover = new Run(Grafico,arrList,Nivel);
 		Mover.start();
-		//System.out.println("-- Imprimiendo el array: " + arrList);
 	}//end of LeerComandos (method)
 	/**
 	 * Este metodo detecta la accion de cerrar la ventana del JFrame de la clase
