@@ -79,7 +79,6 @@ public class Interfaz extends javax.swing.JFrame implements ActionListener {
 		Guia = new JMenuItem("Instrucciones");
 		programa.add(Guia);
 		
-		
 		this.Guia.addActionListener(this);
 		Menu_Principal = new JMenuItem("Volver al menú");
 		programa.add(Menu_Principal);
@@ -87,7 +86,6 @@ public class Interfaz extends javax.swing.JFrame implements ActionListener {
 	    Salir = new JMenuItem("Guardar y Salir");
 	    programa.add(Salir);
 	    this.Salir.addActionListener(this);
-		
 		
 		setTitle("Alien CowVenant");
 		setResizable(false);
@@ -98,7 +96,6 @@ public class Interfaz extends javax.swing.JFrame implements ActionListener {
 		panelprincipal.add(Comandos(), BorderLayout.EAST);
 		panelprincipal.add(Escenario(), BorderLayout.WEST);
 		cerrar();
-		
 	}
 	/**
 	 * Este metodo visualiza el escenario del nivel
@@ -118,10 +115,8 @@ public class Interfaz extends javax.swing.JFrame implements ActionListener {
 	 * Este metodo se encargar de mostrar la area donde se introduccira la acciones de la nave
 	 * @return panel2
 	 */
-	
 	protected JComponent Comandos(){
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		
 		
 		panel2.setLayout(new GridBagLayout());
 		
@@ -148,8 +143,7 @@ public class Interfaz extends javax.swing.JFrame implements ActionListener {
 		panel2.add(scroll,gbc);
 		gbc.weighty = 0.0;
 		gbc.weightx = 0.0;
-
-
+		
 		boton5 = new JButton("Run");
 		gbc.gridx=2;
 		gbc.gridy=4;
@@ -215,8 +209,6 @@ public class Interfaz extends javax.swing.JFrame implements ActionListener {
 	/**
 	 * Metodo que maniesta la acciones que moveran a la nave dentro del escenario
 	 */
-	
-	
 	public void actionPerformed(ActionEvent e) {
 		if(e.getSource()==boton1){
 			Entrada.setText(Entrada.getText()+"step ");
@@ -303,8 +295,6 @@ public class Interfaz extends javax.swing.JFrame implements ActionListener {
 			System.exit(0);
 		}
 	}
-
-
 	public Interfaz() {
 		
 	}
