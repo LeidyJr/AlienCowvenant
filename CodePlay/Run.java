@@ -63,7 +63,6 @@ public class Run extends Thread {
 	 */
 	public void run(){
 		objOp.CantidadVacas(Interfaz.MatrizLogica);
-		//System.out.println(datos.getMundoActivo());
 		for(int i=0; i<arrList.size();i++){
 			String comandoValue[] = arrList.get(i).split(" ");
 			if (comandoValue.length > 2 || comandoValue.length < 2 ){
@@ -78,7 +77,6 @@ public class Run extends Thread {
 							//System.out.println("Estoy en el Step");
 							recorrido=Integer.parseInt(comandoValue[1]);
 							for (int z = 0;z < Integer.parseInt(comandoValue[1]); z++) {
-								//System.out.println(" --- runAlien function executed! ----");
 								runAlien();
 								
 								if(choque){
@@ -87,7 +85,6 @@ public class Run extends Thread {
 										
 										Thread.sleep(1000);
 									} catch (InterruptedException e) {
-										// TODO Auto-generated catch block
 										e.printStackTrace();
 									}
 									
@@ -97,7 +94,6 @@ public class Run extends Thread {
 										z = Integer.parseInt(comandoValue[1]);
 										
 									} catch (InterruptedException e) {
-										// TODO Auto-generated catch block
 										e.printStackTrace();
 									}
 								//validateMundoDesplazamiento(); //- validar espacio de desplazamiento de la matriz para ver que sea posible.
@@ -134,7 +130,6 @@ public class Run extends Thread {
 						//turnAlien modifica el estado interno de orientacion de la nave.
 						
 						if ( rotationShip.equals("0") || rotationShip.equals("-360") || rotationShip.equals("360") ) {
-							//System.out.println(" --- turnAlien function executed - 0,360,-360! ----");
 							
 							if(posnave==52){
 								turnAlien(objOp.getimagen(52),52);
@@ -171,13 +166,10 @@ public class Run extends Thread {
 							try {
 								Thread.sleep(1000);
 							} catch (InterruptedException e) {
-								// TODO Auto-generated catch block
 								e.printStackTrace();
 							}
 							continue;
-						} else if ( rotationShip.equals("RIGHT")) {
-							//System.out.println(" --- turnAlien function executed - RIGHT! ----");
-							
+						} else if ( rotationShip.equals("RIGHT")) {							
 							if(posnave==52){
 								turnAlien(objOp.getimagen(51),51);
 							}else{
@@ -213,12 +205,10 @@ public class Run extends Thread {
 							try {
 								Thread.sleep(1000);
 							} catch (InterruptedException e) {
-								// TODO Auto-generated catch block
 								e.printStackTrace();
 							}
 							continue;
 						} else if ( rotationShip.equals("45") || rotationShip.equals("-315") ) {
-							//System.out.println(" --- turnAlien function executed 45 -315 ----");
 							
 							if(posnave==52){
 								turnAlien(objOp.getimagen(53),53);
@@ -255,12 +245,10 @@ public class Run extends Thread {
 							try {
 								Thread.sleep(1000);
 							} catch (InterruptedException e) {
-								// TODO Auto-generated catch block
 								e.printStackTrace();
 							}
 							continue;
 						} else if (rotationShip.equals("90") || rotationShip.equals("-270")) {
-							//System.out.println(" --- turnAlien function executed 90 -270 ----");
 							
 							if(posnave==52){
 								turnAlien(objOp.getimagen(54),54);
@@ -297,12 +285,10 @@ public class Run extends Thread {
 							try {
 								Thread.sleep(1000);
 							} catch (InterruptedException e) {
-								// TODO Auto-generated catch block
 								e.printStackTrace();
 							}
 							continue;
 						} else if (rotationShip.equals("135") || rotationShip.equals("-225") ) {
-							//System.out.println(" --- turnAlien function executed 135 -225 ----");
 							
 							if(posnave==52){
 								turnAlien(objOp.getimagen(55),55);
@@ -339,12 +325,10 @@ public class Run extends Thread {
 							try {
 								Thread.sleep(1000);
 							} catch (InterruptedException e) {
-								// TODO Auto-generated catch block
 								e.printStackTrace();
 							}
 							continue;
 						} else if (rotationShip.equals("180") || rotationShip.equals("-180") ) {
-							//System.out.println(" --- turnAlien function executed 180 -180! ----");
 							
 							if(posnave==52){
 								turnAlien(objOp.getimagen(56),56);
@@ -382,7 +366,6 @@ public class Run extends Thread {
 							try {
 								Thread.sleep(1000);
 							} catch (InterruptedException e) {
-								// TODO Auto-generated catch block
 								e.printStackTrace();
 							}
 							continue;
